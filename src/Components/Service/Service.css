@@ -1,0 +1,42 @@
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+    row-gap: 30px;
+}
+
+.image {
+    border-radius: 10px;
+}
+
+@media screen and (max-width:688px) {
+    .services {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .image{
+        width:100%
+    }
+    .CustomerStatus{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .onePerson{
+        margin-top: 45px;
+    }
+    .questonsAndAnswer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
+    }
+    .card{
+        height: 450px;
+    }
+    .aboutme{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
